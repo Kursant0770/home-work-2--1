@@ -48,7 +48,7 @@ p {
   background-image: url("./assets/images/backround-image.png");
   background-repeat: no-repeat;
   width: 100%;
-  height: 120vh;
+  height: 1080px;
   position: absolute;
   z-index: -10;
 }
@@ -110,7 +110,6 @@ button {
 .box-text > p {
   max-width: 1076px;
   height: 88px;
-  /* font-weight: 200; */
   font-size: 28px;
   line-height: 44px;
 }
@@ -123,10 +122,6 @@ button {
 
 .case-studies::-webkit-scrollbar {
   overflow: hidden;
-}
-
-.box-3 {
-
 }
 
 .box-video {
@@ -147,4 +142,33 @@ button {
 .play {
   position: absolute;
   z-index: 10;
+}
+
+.footer {
+  height: 10vh;
+  padding:0 100px;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer > div > p {
+  color: #1f1f1f9e;
+}
+
+.footer > div {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icons > img {
+  max-width: 40px;
+  height: 40px;
+  gap: 0;
 }
