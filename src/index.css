@@ -8,8 +8,8 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  z-index: 1;
+  position: fixed;
+  z-index: 100;
   padding: 56px 100px;
 }
 
@@ -34,12 +34,56 @@ header {
   line-height: 36px;
   font-weight: 800;
   color: #114455;
+  background-color: #ffffff;
 }
 
 .background {
   background-image: url("./assets/images/backround-image.png");
+  background-repeat: no-repeat;
   width: 100%;
   height: 120vh;
-  position: relative;
+  position: absolute;
   z-index: -10;
+}
+
+.box-1 {
+  display: grid;
+  position: relative;
+  padding: 350px 0 0 100px;
+  gap: 48px;
+}
+
+.box-1-h1 {
+  width: 700px;
+  height: 200px;
+}
+
+.box-1-h1 > h1 {
+  font-size: 80px;
+  line-height: 100%;
+  color: #114455;
+}
+
+.box-1-p {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 100%;
+  color: #1F1F1F;
+}
+
+button {
+  border-width: 1px;
+  width: 150px;
+  height: 56px;
+  line-height: 36px;
+  font-weight: 800;
+  color: #ffffff;
+  background-color: #114455;
+  cursor: pointer;
+}
+
+.nav-svg {
+  display: flex;
+  justify-content: center;
+  padding-top: 21vh;
 }

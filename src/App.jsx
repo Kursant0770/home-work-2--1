@@ -13,7 +13,25 @@ function App() {
       </header>
 
       <main>
-      <div className="background"></div>
+        <div className="background"></div>
+
+        <section className="box-1">
+          
+
+          <div className="box-1-h1">
+            <h1>We build dreams, not just walls</h1>
+          </div>
+
+          <div className="box-1-p">
+            <p>Fulfill your international property developments with us</p>
+          </div>
+
+          <button>Let’s Talk</button>
+
+          <div className="nav-svg">
+            <img src="./src/assets/icons/nav.svg" alt="nav" />
+          </div>
+        </section>
       </main>
       <footer></footer>
     </div>
