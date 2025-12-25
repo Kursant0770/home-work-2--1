@@ -4,3 +4,42 @@
   box-sizing: border-box;
 }
 
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 1;
+  padding: 56px 100px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 118px;
+  align-items: center;
+}
+
+.header-nav > a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 900;
+  color: #114455;
+}
+
+.header-nav > button {
+  border-width: 1px;
+  width: 150px;
+  height: 56px;
+  line-height: 36px;
+  font-weight: 800;
+  color: #114455;
+}
+
+.background {
+  background-image: url("./assets/images/backround-image.png");
+  width: 100%;
+  height: 120vh;
+  position: relative;
+  z-index: -10;
+}
