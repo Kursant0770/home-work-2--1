@@ -1,4 +1,4 @@
-const Main3 = () => {
+const MainThree = () => {
     return (
         <section className="box-3">
           <div className="box-text">
@@ -15,4 +15,4 @@ const Main3 = () => {
     );
 };
 
-export default Main3;
+export default MainThree;

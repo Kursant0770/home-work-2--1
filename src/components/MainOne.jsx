@@ -1,4 +1,4 @@
-const Main1 = () => {
+const MainOne = () => {
     return (
         <section className="box-1">
             <h1 className="box-1-h1">We build dreams, not just walls</h1>
@@ -13,4 +13,4 @@ const Main1 = () => {
     );
 };
 
-export default Main1;
+export default MainOne;

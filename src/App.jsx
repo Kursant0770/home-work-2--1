@@ -1,9 +1,9 @@
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
-import Main1 from './components/main1'
-import Main2 from './components/Main2'
-import Main3 from './components/Main3'
+import MainOne from './components/MainOne'
+import MainThree from './components/MaintHree'
+import MainTwo from './components/MainTwo'
 
 function App() {
   return (
@@ -12,12 +12,12 @@ function App() {
 
       <div className="background"></div>
 
-      <Main1 />
+      <MainOne />
 
-      <Main2 />
+      <MainTwo />
 
-      <Main3 />
-      
+      <MainThree />
+
       <Footer />
 
       
