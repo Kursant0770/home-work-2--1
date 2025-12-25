@@ -100,7 +100,7 @@ button {
 }
 
 .box-text > h1 {
-  font-weight: 400;
+  font-weight: 800;
   font-size: 80px;
   line-height: 100%;
   color: #1F1F1F;
@@ -110,7 +110,7 @@ button {
 .box-text > p {
   max-width: 1076px;
   height: 88px;
-  font-weight: 400;
+  /* font-weight: 200; */
   font-size: 28px;
   line-height: 44px;
 }
@@ -123,4 +123,28 @@ button {
 
 .case-studies::-webkit-scrollbar {
   overflow: hidden;
+}
+
+.box-3 {
+
+}
+
+.box-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  max-width: 85vw;
+  height: 800px;
+  margin: 144px 100px;
+  position: relative;
+  z-index: -10;
+
+}
+
+.play {
+  position: absolute;
+  z-index: 10;
 }
