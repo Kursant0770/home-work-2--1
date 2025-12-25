@@ -120,3 +120,7 @@ button {
   overflow: auto;
   margin:0 0 104px 100px;
 }
+
+.case-studies::-webkit-scrollbar {
+  overflow: hidden;
+}

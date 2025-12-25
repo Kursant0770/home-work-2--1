@@ -44,6 +44,9 @@ function App() {
           </div>
         </section>
 
+        <section className="box-3">
+
+        </section>
       </main>
       <footer></footer>
     </div>
