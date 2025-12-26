@@ -1,3 +1,8 @@
+import footerIcons1 from "../assets/icons/instagram-1.svg"
+import footerIcons2 from "../assets/icons/facebook-2.svg"
+import footerIcons3 from "../assets/icons/twitter-3.svg"
+import footerIcons4 from "../assets/icons/linkedIn-4.svg"
+
 const Footer = () => {
     return (
       <footer>
@@ -10,10 +15,10 @@ const Footer = () => {
             <p>info@invoriem.com</p>
 
             <section>
-              <img src="/src/assets/icons/instagram-1.svg" alt="instagram" />
-              <img src="/src/assets/icons/facebook-2.svg" alt="facebook" />
-              <img src="/src/assets/icons/twitter-3.svg" alt="twitter" />
-              <img src="/src/assets/icons/linkedIn-4.svg" alt="linkedIn" />
+              <img src={footerIcons1} alt="instagram" />
+              <img src={footerIcons2} alt="facebook" />
+              <img src={footerIcons3} alt="twitter" />
+              <img src={footerIcons4} alt="linkedIn" />
             </section>
           </div>
         </section>

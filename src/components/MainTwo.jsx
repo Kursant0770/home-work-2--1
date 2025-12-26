@@ -1,3 +1,8 @@
+import Box1case1 from "../assets/images/case-studies-1.png"
+import Box1case2 from "../assets/images/case-studies-2.png"
+import Box1case3 from "../assets/images/case-studies-3.png"
+import Box1case4 from "../assets/images/case-studies-4.png"
+
 const MainTwo = () => {
     return (
       <section className="box-2">
@@ -11,10 +16,10 @@ const MainTwo = () => {
           </div>
 
           <div className="case-studies">
-            <img src="./src/assets/images/case-studies-1.png" alt="case-studies-1" />
-            <img src="./src/assets/images/case-studies-2.png" alt="case-studies-2" />
-            <img src="./src/assets/images/case-studies-3.png" alt="case-studies-3" />
-            <img src="./src/assets/images/case-studies-4.png" alt="case-studies-4" />
+            <img src={Box1case1} alt="case-studies-1" />
+            <img src={Box1case2} alt="case-studies-2" />
+            <img src={Box1case3} alt="case-studies-3" />
+            <img src={Box1case4} alt="case-studies-4" />
           </div>
         </section>
     );

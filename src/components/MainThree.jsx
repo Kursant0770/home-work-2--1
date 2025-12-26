@@ -1,4 +1,8 @@
-const MainThree = () => {
+import Box3video from "../assets/images/box-3-video.jpg"
+import Box3play from "../assets/icons/box-3-play-video.svg"
+
+
+const MaintHree = () => {
     return (
         <section className="box-3">
           <div className="box-text">
@@ -8,11 +12,11 @@ const MainThree = () => {
           </div>
 
           <div className="box-video">
-            <img src="/src/assets/images/box-3-video.jpg" alt="video" className="video"/>
-            <img src="./src/assets/icons/box-3-play-video.svg" alt="play" className="play"/>
+            <img src={Box3video} alt="video" className="video"/>
+            <img src={Box3play} alt="play" className="play"/>
           </div>
         </section>
     );
 };
 
-export default MainThree;
+export default MaintHree;

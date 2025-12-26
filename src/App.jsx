@@ -2,7 +2,7 @@ import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import MainOne from './components/MainOne'
-import MainThree from './components/MainThree'
+import MaintHree from './components/MaintHree'
 import MainTwo from './components/MainTwo'
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
 
       <MainTwo />
 
-      <MainThree />
+      <MaintHree />
 
       <Footer />
 

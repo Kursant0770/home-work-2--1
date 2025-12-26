@@ -1,3 +1,6 @@
+import Box1nav from "../assets/icons/nav.svg"
+
+
 const MainOne = () => {
     return (
         <section className="box-1">
@@ -7,7 +10,7 @@ const MainOne = () => {
           <button>Let’s Talk</button>
 
           <div className="nav-svg">
-            <img src="./src/assets/icons/nav.svg" alt="nav" />
+            <img src={Box1nav} alt="nav" />
           </div>
         </section>
     );

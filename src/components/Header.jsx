@@ -1,7 +1,10 @@
+import logo1 from "../assets/icons/logo.svg"
+
 const Header = () => {
     return (
       <header>
-        <img src="./src/assets/icons/logo.svg" alt="logo" />
+        
+        <img src={logo1} alt="logo" />
 
         <div className="header-nav">
           <a href="#">About us</a>
