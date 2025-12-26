@@ -8,7 +8,7 @@ const MainThree = () => {
           </div>
 
           <div className="box-video">
-            <img src="./src/assets/images/box-3-video.jpg" alt="video" className="video"/>
+            <img src="/src/assets/images/box-3-video.jpg" alt="video" className="video"/>
             <img src="./src/assets/icons/box-3-play-video.svg" alt="play" className="play"/>
           </div>
         </section>
